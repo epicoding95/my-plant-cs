@@ -10,11 +10,15 @@ namespace userPlant
           private static int _waterLevel { get; set; }
           private static int _foodLevel { get; set; }
           private static int  _sunLevel { get; set; }
+            public myPlant()
+            {
+           _name = "";
+            _waterLevel = 10;
+            _foodLevel = 30;
+            _sunLevel = 10;
 
-        //    public string _name 
-        //    private string _name 
-        //    private string _name 
-        //    private string _name 
+            }
+        
 
 
 
@@ -27,6 +31,7 @@ namespace userPlant
          _sunLevel = iSunLevel;
 
         }
+        
         public void Water()
         {
         _waterLevel += 2;
@@ -52,6 +57,17 @@ namespace userPlant
         public int getgiveSunshine()
         {
             return _sunLevel;
+        }
+        public bool alive()
+        {
+            if(giveWater || giveSunshine < 3)
+            {
+                return true;
+            }
+            else
+            {
+            return false;    
+            }
         }
        
     }

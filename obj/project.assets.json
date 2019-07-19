@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/Guest/.nuget/packages/": {},
+    "/Users/KobysMac/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/my-plants/main.csproj",
+      "projectUniqueName": "/Users/KobysMac/Desktop/my-plant-cs/main.csproj",
       "projectName": "main",
-      "projectPath": "/Users/Guest/Desktop/my-plants/main.csproj",
-      "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/my-plants/obj/",
+      "projectPath": "/Users/KobysMac/Desktop/my-plant-cs/main.csproj",
+      "packagesPath": "/Users/KobysMac/.nuget/packages/",
+      "outputPath": "/Users/KobysMac/Desktop/my-plant-cs/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Guest/.nuget/NuGet/NuGet.Config"
+        "/Users/KobysMac/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

@@ -19,7 +19,7 @@ namespace adventureGame
             Console.WriteLine("type 1 if you want to  water your plant. \ntype 2 if you want to feed your plant. \ntype 3 if you want  your to have some SUN.");
            string listen = Console.ReadLine();
             myPlant NewPlant = new myPlant(plantName, 50,30,10);
-            Start:
+            
             switch(listen)
                 {
                 case "1":
@@ -32,10 +32,11 @@ namespace adventureGame
                     NewPlant.giveSunshine();
                     break;
                     default: 
-                    Console.WriteLine("YOU CANT DO THAT");
+                    Console.WriteLine("Please enter a valid number");
                     break;
-                   goto Start;
+                   
                 }
+            if(NewPlant)
                    
 
             
